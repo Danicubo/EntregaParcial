@@ -1,0 +1,27 @@
+:root {
+    --color1: white;
+    --color2: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+body .buttons {
+    padding: 8px;
+    margin-left: 8px;
+}
+
+div #speedUp {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+div #speedDown {
+    color: var(--color2);
+    background-color: var(--color1);
+}
